@@ -11,5 +11,5 @@ def extract(filename):
 
 
 if __name__ == "__main__":
-    if not os.path.isdir('data/faces_emore'):
-        extract('data/faces_emore.zip')
+    if not os.path.isdir('data/lfw_112'):
+        extract('data/lfw_112.zip')
